@@ -39,6 +39,7 @@
 #include "Papyrus/Functions/Utility.h"
 #include "Papyrus/Functions/VisualEffect.h"
 #include "Papyrus/Functions/Weather.h"
+#include "Papyrus/Functions/Worldspace.h"
 
 #include "Papyrus/ObjectTypes.h"
 
@@ -99,6 +100,7 @@ namespace Papyrus
 		Utility::Bind(*a_vm);
 		VisualEffect::Bind(*a_vm);
 		Weather::Bind(*a_vm);
+		Worldspace::Bind(*a_vm);
 
 		return true;
 	}

@@ -43,6 +43,7 @@ set(headers ${headers}
 	include/Papyrus/Functions/Utility.h
 	include/Papyrus/Functions/VisualEffect.h
 	include/Papyrus/Functions/Weather.h
+	include/Papyrus/Functions/Worldspace.h
 	include/Papyrus/Manager.h
 	include/Papyrus/ObjectTypes.h
 	include/Papyrus/Util/ConditionParser.h

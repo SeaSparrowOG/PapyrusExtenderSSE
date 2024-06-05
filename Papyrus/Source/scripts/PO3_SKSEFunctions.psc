@@ -939,3 +939,10 @@ Scriptname PO3_SKSEFunctions Hidden
 	int Function GetWindSpeedAsInt(Weather akWeather) global native
 
 	int Function GetWeatherType(Weather akWeather = None) global native
+
+;-----------------------------------------------------------------------------------------------------------
+;WEATHER
+;----------------------------------------------------------------------------------------------------------
+
+	;SeaSparrow - Added function
+	Worldspace[] Function GetParentWorldSpaces(Worldspace akWorldSpace) global native
